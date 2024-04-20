@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Hello {{my_name}}</h1>
+    {% for i in range(100) %}
+        {% if i%2 == 0%}
+            <p>{{i}}</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
